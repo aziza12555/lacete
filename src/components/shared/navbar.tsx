@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
 import { Menu } from "lucide-react";
+import { useNavigate } from "react-router-dom"; // 🟢 ADD THIS
 import { Button } from "../ui/button";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const navigate = useNavigate(); // 🟢 ADD THIS
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,13 +24,15 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Left: Menu Icon */}
-        <button className="text-[#5b6647] hover:text-[#d2d8c4] transition">
+        <button
+          onClick={() => navigate("/menu")} // 🟢 THIS LINE
+          className="text-[#5b6647] hover:text-[#d2d8c4] transition"
+        >
           <Menu className="w-6 h-6" />
         </button>
 
         {/* Right: Buttons */}
         <div className="flex gap-4">
-          {/* Online Check-In */}
           <Button className="group relative bg-white text-[#5b6647] hover:bg-[#a6af96] border border-[#5b6647] rounded-2xl overflow-hidden h-10 min-w-[150px] px-6">
             <span className="absolute inset-0 flex items-center justify-center transition-transform duration-500 group-hover:-translate-y-full">
               Online Check-In

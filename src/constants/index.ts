@@ -1,0 +1,23 @@
+export const countries = [
+  { code: "+998", flag: "🇺🇿", label: "Uzbekistan" },
+  { code: "+1", flag: "🇺🇸", label: "United States" },
+  { code: "+44", flag: "🇬🇧", label: "United Kingdom" },
+  { code: "+91", flag: "🇮🇳", label: "India" },
+  { code: "+81", flag: "🇯🇵", label: "Japan" },
+  { code: "+86", flag: "🇨🇳", label: "China" },
+  { code: "+49", flag: "🇩🇪", label: "Germany" },
+  { code: "+33", flag: "🇫🇷", label: "France" },
+  { code: "+39", flag: "🇮🇹", label: "Italy" },
+  { code: "+7", flag: "🇷🇺", label: "Russia" },
+  { code: "+82", flag: "🇰🇷", label: "South Korea" },
+  { code: "+966", flag: "🇸🇦", label: "Saudi Arabia" },
+  { code: "+971", flag: "🇦🇪", label: "United Arab Emirates" },
+  { code: "+380", flag: "🇺🇦", label: "Ukraine" },
+  { code: "+34", flag: "🇪🇸", label: "Spain" },
+  { code: "+90", flag: "🇹🇷", label: "Turkey" },
+  { code: "+55", flag: "🇧🇷", label: "Brazil" },
+  { code: "+351", flag: "🇵🇹", label: "Portugal" },
+  { code: "+61", flag: "🇦🇺", label: "Australia" },
+  { code: "+1", flag: "🇨🇦", label: "Canada" },
+];
+

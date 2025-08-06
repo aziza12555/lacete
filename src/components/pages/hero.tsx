@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import About from "./about";
-import Rooms from "./rooms";
+import Rooms from "./rooms/rooms";
 
 const Hero = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -36,7 +36,6 @@ const Hero = () => {
   return (
 <>
     <div className="relative w-full h-screen overflow-hidden bg-white">
-      {/* Background Image */}
       <img
         src="https://hotelodisej.com/wp-content/uploads/bf-advanced-images/209/ALH_Odisej_exterior_aerial_07-scaled-1920x0.jpg"
         alt="Hotel Odisej"
@@ -47,7 +46,6 @@ const Hero = () => {
         `}
       />
 
-      {/* Hero Title — Always at Top */}
       <div
         className={`
           text-[#5b6647] font-bold transition-all duration-1000 ease-in-out

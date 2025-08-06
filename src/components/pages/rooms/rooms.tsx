@@ -1,16 +1,48 @@
 import { ArrowRight } from "lucide-react";
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 import { Link } from "react-router-dom"; 
+import { useEffect, useState } from "react";
+import RoomsList from "./roomsList";
 
 const Rooms = () => {
+    const [scrollY, setScrollY] = useState(0);
+  
+    useEffect(() => {
+      const handleScroll = () => setScrollY(window.scrollY);
+      window.addEventListener("scroll", handleScroll);
+      return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+  
+    const scale = Math.min(0.3 + scrollY / 500, 1);
+    const opacity = Math.max(1 - scrollY / 400, 0)
   return (
+    <>
     <div className="bg-[#f5f5e8] py-16">
       <div className="max-w-7xl mx-auto px-4">
-        <h1 className="font-serif text-center text-5xl sm:text-6xl text-[#323a23] mb-6 leading-tight">
-          Sweeping view of the<br />Adriatic in your Room
-        </h1>
-
-        <div className="mb-12 max-w-xl">
+   <>
+        <div className="relative z-10 h-full flex items-start justify-center text-center px-4 pt-24">
+  <h1
+    className="text-[#5b6647] drop-shadow-lg font-serif font-medium text-4xl md:text-6xl leading-tight transition-all duration-500"
+    style={{
+      opacity: opacity,
+      transform: `scale(${Math.max(1 - scrollY / 1000, 0.85)})`,
+    }}
+  >
+Sweeping view of the<br/>Adriatic in your Room
+  </h1>
+</div>
+   <div className="absolute inset-0 z-0">
+          <img
+            src="https://hotelodisej.com/wp-content/uploads/bf-advanced-images/213/ALH_Odisej_deluxe_seaview_balcony_double_01-scaled-1920x0.jpg"
+            alt="Luxury Room"
+            className="w-full h-full object-cover transition-transform duration-700 ease-in-out brightness-[.7]"
+            style={{ transform: `scale(${scale})` }}
+          />
+        </div>
+   </>
+   <>
+     <div className="relative mt-200 h-screen bg-[#] overflow-hidden">
+    <div className="mb-12 max-w-xl">
           <p className="text-[#323a23] text-sm md:text-base leading-relaxed mb-4">
             Many rooms have balconies that beckon you to <br />
             breathe in the pure Mediterranean air of the island. <br />
@@ -52,7 +84,12 @@ const Rooms = () => {
           </div>
         </div>
       </div>
+   </>
+      </div>
     </div>
+    <RoomsList/>
+    
+    </>
   );
 };
 
