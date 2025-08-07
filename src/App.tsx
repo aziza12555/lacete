@@ -9,6 +9,10 @@ import Rooms from './components/pages/rooms/rooms';
 import Dinning from './components/pages/dinning/dinning';
 import Wellness from './components/pages/wellness/wellness';
 import KonsultatsiyaForm from './components/pages/contact/bronRoom';
+import Footer from './components/shared/footer';
+import Park from './components/pages/park/park';
+import Beyond from './components/pages/furniture/beyond';
+import YourBronRoom from './components/pages/contact/yourBronRoom';
 
 const App = () => {
   return (
@@ -23,7 +27,11 @@ const App = () => {
          <Route path='/rooms' element={<Rooms/>}/>
          <Route path='/dining' element={<Dinning/>}/>
          <Route path='/wellness' element={<Wellness/>}/>
+         <Route path='/park' element={<Park/>}/>
+         <Route path='/beyond' element={<Beyond/>}/>
+         <Route path='/your-bron-room' element={<YourBronRoom />} />
       </Routes>
+      <Footer/>
     </div>
   );
 };

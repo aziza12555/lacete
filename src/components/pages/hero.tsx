@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import About from "./about";
-import Rooms from "./rooms/rooms";
+import Park from "./park/park";
 
 const Hero = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -55,11 +55,12 @@ const Hero = () => {
             : "absolute top-12 left-1/2 -translate-x-1/2 text-3xl md:text-5xl"}
         `}
       >
-        Hotel Jizzakh
+        Hotel Jizzakh <br/><span className="ml-30 text-xl"> Mljet</span>
       </div>
     </div>
     <About/>
-    <Rooms/>
+    <Park/>
+   
 </>
   );
 };

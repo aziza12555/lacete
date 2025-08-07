@@ -18,8 +18,8 @@ const RoomSection = ({
   return (
     <div
       className={cn(
-        "relative flex flex-col md:flex-row max-w-7xl mx-auto border-b border-[#e8e8d8] overflow-hidden transition-all duration-300 cursor-pointer items-stretch", // items-stretch qo'shildi
-        isActive ? "bg-[#5b6647] text-white" : "bg-[#f7f7e8] text-[#1f1f1f]"
+        "relative flex flex-col md:flex-row max-w-7xl  mx-auto overflow-hidden transition-all duration-300 cursor-pointer items-stretch", // items-stretch qo'shildi
+        isActive ? "bg-[#5b6647] text-white" : " text-[#1f1f1f]"
       )}
       style={{ minHeight: "200px" }} // konteynerning minimal balandligi
     >

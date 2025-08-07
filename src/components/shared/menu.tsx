@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const menuItems = [
   { title: "Rooms & Suites", path: "/rooms" },
@@ -7,8 +7,8 @@ const menuItems = [
   { title: "Wellness", path: "/wellness" },
   { title: "Contact", path: "/contact" },
   { title: "Discover Mljet", path: "/discover" },
-  { title: "Book now", path: "/book" },
-  { title: "Online Check-in", path: "/checkin" },
+  { title: "Jewelery", path: "/beyond" },
+  { title: "Mljet Park", path: "/park" },
 ];
 
 export const HotelMenu: React.FC = () => {
@@ -25,9 +25,9 @@ export const HotelMenu: React.FC = () => {
           >
             &#x2715;
           </button>
-          <h1 className="text-4xl font-serif text-green-900 leading-tight">
-            Hotel Jizzakh
-          </h1>
+          <Link to={'/'} className="text-4xl font-serif text-green-900 leading-tight">
+          Hotel Jizzakh
+          </Link>
           <p className="text-sm font-serif text-green-900 tracking-widest">
             MLJET
           </p>
