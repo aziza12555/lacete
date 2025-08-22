@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import About from "./about";
 import Park from "./park/park";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
   const [isExpanded, setIsExpanded] = useState(false);
   const [showText, setShowText] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const timer1 = setTimeout(() => {
@@ -55,7 +57,7 @@ const Hero = () => {
             : "absolute top-12 left-1/2 -translate-x-1/2 text-3xl md:text-5xl"}
         `}
       >
-        Hotel Jizzakh <br/><span className="ml-30 text-xl"> Mljet</span>
+         {t("hotelName")} <br/><span className="ml-30 text-xl">  {t("region")}</span>
       </div>
     </div>
     <About/>

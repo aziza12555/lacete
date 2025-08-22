@@ -1,0 +1,46 @@
+{
+  "menu": {
+    "rooms": "客房与套房",
+    "dining": "餐饮选择",
+    "wellness": "健康服务",
+    "contact": "联系我们",
+    "discover": "发现姆列特",
+    "jewelery": "珠宝",
+    "park": "姆列特公园"
+  },
+  "hotelName": "吉扎克酒店",
+  "region": "姆列特",
+  "close": "×",
+   "navbar": {
+    "checkin": "在线登记",
+    "book": "立即预订"
+  },
+    "about": {
+    "text": "Odisej Mljet 酒店坐落于姆列特国家公园葱郁的松树和橡树森林中，乘坐客运或汽车渡轮从杜布罗夫尼克出发仅需两小时。"
+  },
+    "rooms": {
+    "heroTitleLine1": "您的房间拥有",
+    "heroTitleLine2": "亚得里亚海的壮丽景色",
+    "heroImageAlt": "带亚得里亚海景的豪华房间",
+    "description": "许多房间拥有阳台，邀请您呼吸岛上的纯净地中海空气。\n所有房间均配备空调，并设有带淋浴的优雅套间浴室。",
+    "exploreRooms": "探索房间",
+    "room1Alt": "房间1",
+    "room2Alt": "房间2",
+    "room3Alt": "房间3"
+  },
+  "roomsList": {
+    "superiorRoomTitle": "高级客房",
+    "superiorRoomDescription": "享受靠近Pomena码头的柔和遮荫海滨地带，所有游艇和船只都停靠于此。",
+    "deluxeRoomTitle": "豪华客房",
+    "deluxeRoomDescription": "俯瞰整齐排列的Pomena码头，Levanat披萨店拥有令人陶醉的清澈亚得里亚海景色。",
+    "familyRoomTitle": "家庭房",
+    "familyRoomDescription": "从露台上看Pomena湾的完美全景吸引着源源不断的顾客光临Odisej餐厅。"
+  },
+  "park": {
+    "oakForestTitle": "姆列特国家公园的橡树林\n姆列特国家公园的橡树林",
+    "altImage": "姆列特国家公园湖景",
+    "image1Alt": "泳池区域1",
+    "image2Alt": "泳池区域2",
+    "image3Alt": "泳池区域3"
+  }
+}

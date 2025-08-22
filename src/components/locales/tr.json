@@ -1,0 +1,46 @@
+{
+  "menu": {
+    "rooms": "Odalar ve Süitler",
+    "dining": "Yemek Seçenekleri",
+    "wellness": "Sağlık Hizmeti",
+    "contact": "İletişim",
+    "discover": "Mljet'i Keşfedin",
+    "jewelery": "Mücevher",
+    "park": "Mljet Parkı"
+  },
+  "hotelName": "Jizzakh Oteli",
+  "region": "MLJET",
+  "close": "×",
+   "navbar": {
+    "checkin": "Çevrimiçi Giriş",
+    "book": "Şimdi Rezervasyon Yap"
+  },
+    "about": {
+    "text": "Mljet Ulusal Parkı'nın yemyeşil çam ve meşe ormanları içinde yer alan Hotel Odisej Mljet, Dubrovnik'ten yolcu veya araba ferisi ile sadece iki saat uzaklıktadır."
+  },
+    "rooms": {
+    "heroTitleLine1": "Odanızda",
+    "heroTitleLine2": "Adriyatik'in geniş manzarası",
+    "heroImageAlt": "Adriyatik manzaralı lüks oda",
+    "description": "Birçok odada, adanın saf Akdeniz havasını solumanız için balkonlar bulunmaktadır.\nTüm odalarda klima ve şık bir duşlu banyo vardır.",
+    "exploreRooms": "Odaları Keşfet",
+    "room1Alt": "Oda 1",
+    "room2Alt": "Oda 2",
+    "room3Alt": "Oda 3"
+  },
+    "roomsList": {
+    "superiorRoomTitle": "Superior Oda",
+    "superiorRoomDescription": "Pomena iskelesinin yanındaki hafif gölgeli kıyı boyunca, tüm yatlar ve gemilerin yanaştığı yerde harika bir deneyim yaşayın.",
+    "deluxeRoomTitle": "Deluxe Oda",
+    "deluxeRoomDescription": "Çok güzel Pomena marinasında sıralanmış teknelere bakan Levanat Pizzeria, berrak Adriyatik denizinin büyüleyici manzaralarına sahiptir.",
+    "familyRoomTitle": "Aile Odası",
+    "familyRoomDescription": "Terasından Pomena Körfezi'nin mükemmel panoraması, Odisej Restoranına sürekli bir kalabalık çekiyor."
+  },
+    "park": {
+    "oakForestTitle": "Mljet Milli Parkı'nın Meşe Ormanı\nMljet Milli Parkı'nın Meşe Ormanı",
+    "altImage": "Mljet Milli Parkı göl manzarası",
+    "image1Alt": "Havuz alanı 1",
+    "image2Alt": "Havuz alanı 2",
+    "image3Alt": "Havuz alanı 3"
+  }
+}

@@ -1,28 +1,27 @@
 import { useState } from "react";
 import RoomSection from "./roomsSection";
+import { useTranslation } from "react-i18next";
 
 const RoomsList = () => {
+  const { t } = useTranslation();
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   const diningData = [
     {
-      title: "Superior Room ",
-      description:
-        "Enjoy a sublime stretch of gently shaded waterfront next to Pomena pier, where all the yachts and ships dock.",
+      title: t("roomsList.superiorRoomTitle"),
+      description: t("roomsList.superiorRoomDescription"),
       hoverImage:
         "https://hotelodisej.com/wp-content/uploads/bf-advanced-images/532/Superior-room-1-480x0.jpeg",
     },
     {
-      title: "Deluxe Room",
-      description:
-        "Overlooking the neatly lined boats at the very pretty Pomena marina, Levanat Pizzeria has enchanting views over the crystal-clear Adriatic.",
+      title: t("roomsList.deluxeRoomTitle"),
+      description: t("roomsList.deluxeRoomDescription"),
       hoverImage:
         "https://hotelodisej.com/wp-content/uploads/bf-advanced-images/538/Deluxe-room-1-480x0.jpeg",
     },
     {
-      title: "Family Room",
-      description:
-        "The picture perfect panorama of Pomena Bay from the terrace draws a steady crowd to Restaurant Odisej.",
+      title: t("roomsList.familyRoomTitle"),
+      description: t("roomsList.familyRoomDescription"),
       hoverImage:
         "https://hotelodisej.com/wp-content/uploads/bf-advanced-images/542/Family-room-1-480x0.jpeg",
     },
@@ -45,7 +44,6 @@ const RoomsList = () => {
           />
         </div>
       ))}
-   
     </div>
   );
 };

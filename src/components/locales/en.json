@@ -1,0 +1,50 @@
+{
+  "menu": {
+    "rooms": "Rooms & Suites",
+    "dining": "Dining Options",
+    "wellness": "Wellness",
+    "contact": "Contact",
+    "discover": "Discover Mljet",
+    "jewelery": "Jewelry",
+    "park": "Mljet Park"
+  },
+  "hotelName": "Hotel Jizzakh",
+  "region": "MLJET",
+  "close": "×",
+    "navbar": {
+    "checkin": "Online Check-In",
+    "book": "Book Now"
+  },
+   "about": {
+    "text": "Set within the verdant pine and oak tree forest of Mljet National Park, Hotel Odisej Mljet is just two hours by passenger or car ferry from Dubrovnik."
+  },
+    "rooms": {
+    "heroTitleLine1": "Sweeping view of the",
+    "heroTitleLine2": "Adriatic in your Room",
+    "heroImageAlt": "Luxury Room with Adriatic View",
+    "description": "Many rooms have balconies that beckon you to\nbreathe in the pure Mediterranean air of the island.\nAll rooms are air conditioned and feature an\nelegant ensuite bathroom with shower.",
+    "exploreRooms": "Explore Rooms",
+    "room1Alt": "Room 1",
+    "room2Alt": "Room 2",
+    "room3Alt": "Room 3"
+  },
+    "roomsList": {
+    "superiorRoomTitle": "Superior Room",
+    "superiorRoomDescription": "Enjoy a sublime stretch of gently shaded waterfront next to Pomena pier, where all the yachts and ships dock.",
+    "deluxeRoomTitle": "Deluxe Room",
+    "deluxeRoomDescription": "Overlooking the neatly lined boats at the very pretty Pomena marina, Levanat Pizzeria has enchanting views over the crystal-clear Adriatic.",
+    "familyRoomTitle": "Family Room",
+    "familyRoomDescription": "The picture perfect panorama of Pomena Bay from the terrace draws a steady crowd to Restaurant Odisej."
+  },
+  
+  "park": {
+    "oakForestTitle": "Oak tree forest of Mljet National Park Oak tree forest of\nMljet National Park",
+    "altImage": "Mljet National Park lake view",
+    "image1Alt": "Pool area 1",
+    "image2Alt": "Pool area 2",
+    "image3Alt": "Pool area 3"
+  }
+  
+
+
+}

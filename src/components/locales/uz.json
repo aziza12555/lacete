@@ -1,0 +1,46 @@
+{
+  "menu": {
+    "rooms": "Xonalar va Lyukslar",
+    "dining": "Ovqatlanish variantlari",
+    "wellness": "Salomatlik",
+    "contact": "Bogʻlanish",
+    "discover": "Mljetni kashf eting",
+    "jewelery": "Zargarlik buyumlari",
+    "park": "Mljet bogʻi"
+  },
+  "hotelName": "Jizzax Mehmonxonasi",
+  "region": "MLJET",
+  "close": "×",
+    "navbar": {
+    "checkin": "Onlayn ro'yxatdan o'tish",
+    "book": "Hozir band qiling"
+  },
+   "about": {
+    "text": "Mljet milliy bog‘ining yam-yashil archa va eman daraxtlari o‘rmonida joylashgan Hotel Odisej Mljet Dubrovnikdan yo‘lovchi yoki avtomobil paromi bilan atigi ikki soat narida joylashgan."
+  },
+   "rooms": {
+    "heroTitleLine1": "Xonangizda",
+    "heroTitleLine2": "Adriatikning keng manzarasi",
+    "heroImageAlt": "Adriatik ko‘rinishli hashamatli xona",
+    "description": "Ko‘pgina xonalarda balkonlar mavjud bo‘lib, ular sizni orolning sof O‘rta Yer dengizi havasini nafas olishga chaqiradi.\nBarcha xonalar konditsioner bilan jihozlangan va zamonaviy ichki hojatxonaga ega.",
+    "exploreRooms": "Xonalarni ko‘rib chiqish",
+    "room1Alt": "1-xona",
+    "room2Alt": "2-xona",
+    "room3Alt": "3-xona"
+  },
+    "roomsList": {
+    "superiorRoomTitle": "Superior xona",
+    "superiorRoomDescription": "Pomena pier yonidagi yumshoq soyali sohil bo‘ylab, barcha yaxtalar va kemalar qo‘ngan joyda ajoyib dam oling.",
+    "deluxeRoomTitle": "Deluxe xona",
+    "deluxeRoomDescription": "Juda chiroyli Pomena marinaidagi tartibli qayiq va kemalar manzarasi, Levanat Pizzeriadan tiniq Adriatik ko‘rinadi.",
+    "familyRoomTitle": "Oilaviy xona",
+    "familyRoomDescription": "Terastan Pomena ko‘rfazi ajoyib panoramasi Restaurant Odisejni doimo mijozlar bilan to‘ldiradi."
+  },
+    "park": {
+    "oakForestTitle": "Mljet Milliy Parkining emanzor o‘rmoni\nMljet Milliy Parkining emanzor o‘rmoni",
+    "altImage": "Mljet Milliy Parkining ko‘li manzarasi",
+    "image1Alt": "Hovuz hududi 1",
+    "image2Alt": "Hovuz hududi 2",
+    "image3Alt": "Hovuz hududi 3"
+  }
+}
