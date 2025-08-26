@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const Exploreroom = () => {
   const [scrollY, setScrollY] = useState(0);
+    const { t } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -36,8 +38,11 @@ const Exploreroom = () => {
       transform: `scale(${Math.max(1 - scrollY / 1000, 0.85)})`,
     }}
   >
-    Sweeping view of the<br /> Adriatic in your Room
+     {t("rooms.heroTitleLine1")}
+            <br />
+            {t("rooms.heroTitleLine2")}
   </h1>
+       
 </div>
 
       </div>

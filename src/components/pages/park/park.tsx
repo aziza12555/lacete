@@ -6,34 +6,34 @@ const Park = () => {
   return (
     <div>
       <img
-        className="w-full h-screen"
+        className="w-full h-screen object-cover"
         src="https://hotelodisej.com/wp-content/uploads/bf-advanced-images/394/ALH-Odisej-Lakes-1920x0.jpg"
         alt={t("park.altImage")}
       />
       <div className="bg-[#184f68]">
-        <div className="max-w-7xl mx-auto space-y-25 py-24">
-          <h1 className="text-4xl font-serif text-center text-[#d5dacc]">
+        <div className="max-w-7xl mx-auto space-y-12 py-16 px-4 sm:px-6 lg:px-8">
+          <h1 className="text-3xl sm:text-4xl font-serif text-center text-[#d5dacc] mb-10">
             {t("park.oakForestTitle")}
           </h1>
-          <div className="grid grid-cols-3 gap-10">
-            <div className="mt-80">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+            <div className="mt-20 sm:mt-0">
               <img
-                className="rounded-2xl"
+                className="rounded-2xl w-full object-cover"
                 src="https://hotelodisej.com/wp-content/uploads/bf-advanced-images/326/ALH_Hotel_Supetar_Cavtat_Pool26-800x0.jpg"
                 alt={t("park.image1Alt")}
               />
             </div>
-            <div className="h-full w-full">
+            <div className="w-full h-full">
               <img
-                className="rounded-2xl"
+                className="rounded-2xl w-full object-cover"
                 src="https://hotelodisej.com/wp-content/uploads/bf-advanced-images/324/ALH_Hotel_Supetar_Cavtat_Pool18-800x0.jpg"
                 alt={t("park.image2Alt")}
               />
             </div>
             <div>
               <img
-                className="rounded-2xl"
-                src="https://hotelodisej.com/wp-content/uploads/bf-advanced-images/322/ALH_Hotel_Supetar_Cavtat_Pool17-800x0.jpg"
+                className="rounded-2xl w-full object-cover"
+                src="https://static.toiimg.com/photo/imgsize-161580,msid-96352420/96352420.jpg"
                 alt={t("park.image3Alt")}
               />
             </div>

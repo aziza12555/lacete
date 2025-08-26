@@ -35,7 +35,8 @@ const Navbar = () => {
 
         <div className="flex gap-4">
           {/* Online Check-In Button */}
-          <Button className="group relative bg-white text-[#5b6647] hover:bg-[#a6af96] border border-[#5b6647] rounded-2xl overflow-hidden h-10 min-w-[150px] px-6">
+  <div className="md:flex hidden">
+            <Button className="group relative bg-white text-[#5b6647] hover:bg-[#a6af96] border border-[#5b6647] rounded-2xl overflow-hidden h-10 min-w-[150px] px-6">
             <a href="/bron">
               <span className="absolute inset-0 flex items-center justify-center transition-transform duration-500 group-hover:-translate-y-full">
                 {t("navbar.checkin")}
@@ -64,6 +65,7 @@ const Navbar = () => {
               </span>
             </a>
           </Button>
+  </div>
 
           {/* Language Switcher */}
           <LanguageSwitcher />

@@ -22,13 +22,13 @@ export default function LanguageSwitcher() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button className="px-4 py-2 rounded-xl font-medium shadow-md text-white bg-[#e4002b] hover:bg-[#c80025] transition-colors flex items-center gap-2">
+        <Button variant={"ghost"} className="px-4 py-2 rounded-xl font-medium shadow-md bg-background transition-colors flex items-center gap-2">
           <MdTranslate className="text-lg" />
         </Button>
       </DropdownMenuTrigger>
 
       <DropdownMenuPortal>
-        <DropdownMenuContent className="w-36 rounded-xl bg-[#f09ead] shadow-lg border border-gray-200">
+        <DropdownMenuContent className="w-36 rounded-xl  shadow-lg border border-gray-200">
           <DropdownMenuItem onClick={() => changeLang("en")}>🇬🇧 English</DropdownMenuItem>
           <DropdownMenuItem onClick={() => changeLang("ru")}>🇷🇺 Русский</DropdownMenuItem>
           <DropdownMenuItem onClick={() => changeLang("uz")}>🇺🇿 O‘zbekcha</DropdownMenuItem>

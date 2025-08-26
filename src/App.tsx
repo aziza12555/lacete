@@ -13,6 +13,7 @@ import Footer from './components/shared/footer';
 import Park from './components/pages/park/park';
 import Beyond from './components/pages/furniture/beyond';
 import YourBronRoom from './components/pages/contact/yourBronRoom';
+import CardGrid from './components/pages/party/party';
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
          <Route path='/park' element={<Park/>}/>
          <Route path='/beyond' element={<Beyond/>}/>
          <Route path='/your-bron-room' element={<YourBronRoom />} />
+         <Route path='/party' element={<CardGrid/>}/>
       </Routes>
       <Footer/>
     </div>

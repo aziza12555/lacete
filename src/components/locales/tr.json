@@ -4,7 +4,7 @@
     "dining": "Yemek Seçenekleri",
     "wellness": "Sağlık Hizmeti",
     "contact": "İletişim",
-    "discover": "Mljet'i Keşfedin",
+    "discover": "gece partisi",
     "jewelery": "Mücevher",
     "park": "Mljet Parkı"
   },
@@ -42,5 +42,91 @@
     "image1Alt": "Havuz alanı 1",
     "image2Alt": "Havuz alanı 2",
     "image3Alt": "Havuz alanı 3"
+  },
+  "footer": {
+  "hotelName": "Otel Jizzakh",
+  "description": "Adriyatik'in güzelliğini eşsiz konfor ve zarafetle yaşayın.",
+  "quickLinks": "Hızlı Bağlantılar",
+  "links": {
+    "rooms": "Odalar ve Süitler",
+    "dining": "Yemek Seçenekleri",
+    "wellness": "Sağlık Hizmetleri",
+    "contact": "İletişim",
+    "discover": "MLJet'i Keşfedin"
+  },
+  "contactTitle": "Bizimle iletişime geçin",
+  "address": {
+    "line1": "Pomena 2, 20226 Goveđari",
+    "line2": "Mljet, Hırvatistan"
+  },
+  "phone": "Telefon",
+  "email": "E-posta",
+  "copyright": "Otel Jizzakh. Tüm hakları saklıdır."
+},
+"dining": {
+  "vistaMare": {
+    "title": "Vista Mare Plaj Barı",
+    "description": "Tüm yatların ve gemilerin demirlediği Pomena iskelesinin yanında gölgeli kıyıda keyifli bir zaman geçirin."
+  },
+  "levanat": {
+    "title": "Levanat Pizzacısı",
+    "description": "Pomena marinasındaki zarif teknelere bakan Levanat Pizzacısı, berrak Adriyatik Denizi manzaraları sunuyor."
+  },
+  "odisej": {
+    "title": "Odisej Restoranı",
+    "description": "Pomena Körfezi'nin mükemmel panoraması terastan görülür ve bu manzara Odisej Restoranına birçok ziyaretçi çeker."
+  },
+  "heroTitleLine1": "Yöresel lezzetlerle dolu",
+  "heroTitleLine2": "yemek seçenekleri"
+},
+"wellness": {
+  "heroTitleLine1": "Zihin ve beden için",
+  "heroTitleLine2": "wellness tedavileri",
+  "heroImageAlt": "Lüks Wellness Havuz Manzarası",
+  "image1Alt": "Dış mekan detayı",
+  "image2Alt": "Açık havuz",
+  "image3Alt": "Plaj",
+  "text1": "Masaj, sauna seansları, pedikür ve manikür gibi güzellik bakımları, kardiyo ve kuvvet ekipmanlarına sahip bir spor salonu, deniz suyu ile doldurulmuş açık çocuk havuzu veya dinlenmek için bir güneşlenme terası.",
+  "text2": "Energy Clinic, beden, zihin ve içsel benliğin refahı için özel bir uluslararası merkezdir. Enerjinin yeniden kazanılması ve tam bir rahatlama, denge ve keyif hissine odaklanır.",
+  "text3": "Energy Clinic, çağdaş Batı ve Geleneksel Çin Tıbbı’nın eşsiz birleşimiyle bedeninizi ve içsel benliğinizi onarır ve rahatlatır.",
+  "text4": "Bu doğrultuda, çeşitli benzersiz tedaviler sunuyoruz ve kendi organik kozmetik ürünlerimizi üretiyoruz. Ayrıca Sisley, Babor, Decleor, Thalgo gibi prestijli sağlık ve güzellik markalarını kullanıyor ve satışını yapıyoruz.",
+  "text5": "Sağlık ve refaha bütünsel yaklaşımımız eğitimi de kapsar – başarılı bir wellness akademimiz var ve geleceğin sağlık, güzellik uzmanlarına kapsamlı teorik ve pratik bilgi sunuyoruz."
+},
+"contact": {
+  "titleLine1": "Bizimle iletişime geçin",
+  "titleLine2": "ve Mljet'in sırlarını keşfedin",
+  "addressTitle": "Otel Adresi",
+  "addressLine1": "Cizzah, 1255",
+  "addressLine2": "Özbekistan, Cizzah",
+  "contactTitle": "Otel İletişimi",
+  "phone": "+998 99 999 9999",
+  "email": "hotel.jizzakh@gmail.uz",
+  "button": "Oda Rezervasyonu"
+},
+"form": {
+  "title": "Oda Rezervasyonu",
+  "nameLabel": "Adınız",
+  "phoneLabel": "Telefon Numarası",
+  "roomTypeLabel": "Oda Türü",
+  "chooseOption": "Seçin",
+  "roomTypes": {
+    "standard": "Standart Oda",
+    "deluxe": "Deluxe Oda",
+    "seaview": "Deniz Manzaralı Oda"
+  },
+  "priceLabel": "Oda Fiyatı",
+  "submit": "Rezervasyon Yap"
+},
+  "yourRoom": {
+    "title": "Rezervasyonunuz",
+    "name": "İsim",
+    "phone": "Telefon",
+    "roomType": "Oda Türü",
+    "roomPrice": "Oda Fiyatı",
+    "noData": "Veri bulunamadı."
   }
+
+
+
+
 }

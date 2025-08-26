@@ -1,28 +1,27 @@
 import { useState } from "react";
 import DiningItem from "./dinningSction";
+import { useTranslation } from "react-i18next";
 
 const DiningList = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const { t } = useTranslation();
 
   const diningData = [
     {
-      title: "Vista Mare Beach Bar",
-      description:
-        "Enjoy a sublime stretch of gently shaded waterfront next to Pomena pier, where all the yachts and ships dock.",
+      title: t("dining.vistaMare.title"),
+      description: t("dining.vistaMare.description"),
       hoverImage:
         "https://hotelodisej.com/wp-content/uploads/bf-advanced-images/254/ALH_Vista_Mare_beach_bar_night_01-scaled-480x0.jpg",
     },
     {
-      title: "Levanat Pizzeria",
-      description:
-        "Overlooking the neatly lined boats at the very pretty Pomena marina, Levanat Pizzeria has enchanting views over the crystal-clear Adriatic.",
+      title: t("dining.levanat.title"),
+      description: t("dining.levanat.description"),
       hoverImage:
         "https://hotelodisej.com/wp-content/uploads/bf-advanced-images/250/ALH_Tavern_Odisej_terrace_05-scaled-1920x0.jpg",
     },
     {
-      title: "Restaurant Odisej",
-      description:
-        "The picture perfect panorama of Pomena Bay from the terrace draws a steady crowd to Restaurant Odisej.",
+      title: t("dining.odisej.title"),
+      description: t("dining.odisej.description"),
       hoverImage:
         "https://hotelodisej.com/wp-content/uploads/bf-advanced-images/226/ALH_Tavern_Odisej_terrace_01-scaled-480x0.jpg",
     },

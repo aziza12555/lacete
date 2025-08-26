@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import DiningList from "./dinningList";
+import { useTranslation } from "react-i18next";
 
 const Dinning = () => {
   const [scrollY, setScrollY] = useState(0);
+  const {t} = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -27,7 +29,6 @@ const Dinning = () => {
           />
         </div>
 
- 
 <div className="relative z-10 h-full flex items-start justify-center text-center px-4 pt-24">
   <h1
     className="text-[#5b6647] drop-shadow-lg font-serif font-medium text-4xl md:text-6xl leading-tight transition-all duration-500"
@@ -36,7 +37,8 @@ const Dinning = () => {
       transform: `scale(${Math.max(1 - scrollY / 1000, 0.85)})`,
     }}
   >
-  Dining options with<br/>regional specialities
+    {t("dining.heroTitleLine1")}<br />
+    {t("dining.heroTitleLine2")}
   </h1>
 </div>
 

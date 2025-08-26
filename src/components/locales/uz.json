@@ -4,7 +4,7 @@
     "dining": "Ovqatlanish variantlari",
     "wellness": "Salomatlik",
     "contact": "Bogʻlanish",
-    "discover": "Mljetni kashf eting",
+    "discover": "Tungi kecha",
     "jewelery": "Zargarlik buyumlari",
     "park": "Mljet bogʻi"
   },
@@ -42,5 +42,94 @@
     "image1Alt": "Hovuz hududi 1",
     "image2Alt": "Hovuz hududi 2",
     "image3Alt": "Hovuz hududi 3"
+  },
+  "footer": {
+  "hotelName": "Hotel Jizzax",
+  "description": "Adriatika go'zalligini betakror qulaylik va nafislik bilan his eting.",
+  "quickLinks": "Tezkor havolalar",
+  "links": {
+    "rooms": "Xonalar va Lyukslar",
+    "dining": "Ovqatlanish imkoniyatlari",
+    "wellness": "Salomatlik",
+    "contact": "Aloqa",
+    "discover": "MLJet bilan tanishing"
+  },
+  "contactTitle": "Biz bilan bog‘laning",
+  "address": {
+    "line1": "Pomena 2, 20226 Goveđari",
+    "line2": "Mljet, Xorvatiya"
+  },
+  "phone": "Telefon",
+  "email": "Elektron pochta",
+  "copyright": "Hotel Jizzax. Barcha huquqlar himoyalangan."
+},
+"dining": {
+  "vistaMare": {
+    "title": "Vista Mare plyaj bar",
+    "description": "Pomena pier yonidagi soya tusha boshlagan sokin sohil bo‘yida dam oling – bu yerda barcha yaxtalar va kemalar to‘xtaydi."
+  },
+  "levanat": {
+    "title": "Levanat Pitszeriyasi",
+    "description": "Pomena marinasidagi chiroyli kemalarga qarab joylashgan Levanat pitszeriyasi kristalli Adriatika dengizi manzarasini taqdim etadi."
+  },
+  "odisej": {
+    "title": "Odisej Restorani",
+    "description": "Pomena qo‘ltig‘ining mukammal manzarasi terastadan ko‘rinadi va bu Odisej restoraniga ko‘plab mehmonlarni jalb qiladi."
+  },
+  "heroTitleLine1": "Mahalliy taomlarga boy",
+  "heroTitleLine2": "ovqatlanish imkoniyatlari"
+
+},
+"wellness": {
+  "heroTitleLine1": "Salomatlik muolajalari",
+  "heroTitleLine2": "tana va ong uchun",
+  "heroImageAlt": "Hashamatli Wellness basseyni manzarasi",
+  "image1Alt": "Tashqi ko‘rinish tafsilotlari",
+  "image2Alt": "Tashqi basseyn",
+  "image3Alt": "Sohil",
+  "text1": "Massaj, sauna, pedikyur va manikyur kabi go‘zallik muolajalari, kardio va kuchli mashg‘ulotlar uchun jihozlangan fitnes zali, dengiz suvi bilan to‘ldirilgan bolalar basseyni yoki quyosh nurlari ostida dam olish uchun terras.",
+  "text2": "Energy Clinic – bu tanangiz, ongingiz va ichki holatingizga bag‘ishlangan xalqaro markaz bo‘lib, energiyani tiklash, muvozanat va to‘liq dam olishga qaratilgan.",
+  "text3": "Energy Clinic zamonaviy G‘arb va An’anaviy Xitoy Tibbiyotini uyg‘unlashtirib, tanangiz va ruhingizni tiklaydi va tinchlantiradi.",
+  "text4": "Shu maqsadda biz o‘zimizning organik kosmetika mahsulotlarimizni ishlab chiqaramiz hamda Sisley, Babor, Decleor, Thalgo kabi yuqori sifatli brendlar bilan ishlaymiz.",
+  "text5": "Bizning sog‘liq va go‘zallikka bo‘lgan yondashuvimiz ta’limni ham qamrab oladi – biz ertangi avlod sog‘liq va go‘zallik mutaxassislarini tayyorlovchi wellness akademiyasiga egamiz."
+},
+"contact": {
+  "titleLine1": "Biz bilan bog‘laning va",
+  "titleLine2": "Mljet sirlarini kashf eting",
+  "addressTitle": "Mehmonxona manzili",
+  "addressLine1": "Jizzax, 1255",
+  "addressLine2": "O‘zbekiston, Jizzax",
+  "contactTitle": "Mehmonxona aloqasi",
+  "phone": "+998 99 999 9999",
+  "email": "hotel.jizzakh@gmail.uz",
+  "button": "Xonani bron qilish"
+},
+"form": {
+  "title": "Xona bron qilish",
+  "nameLabel": "Ismingiz",
+  "phoneLabel": "Telefon raqami",
+  "roomTypeLabel": "Xona turi",
+  "chooseOption": "Tanlang",
+  "roomTypes": {
+    "standard": "Standard xona",
+    "deluxe": "Deluxe xona",
+    "seaview": "Dengiz manzarali xona"
+  },
+  "priceLabel": "Xona narxi",
+  "submit": "Bron qilish"
+},
+
+  "yourRoom": {
+    "title": "Sizning bron qilingan xonangiz",
+    "name": "Ism",
+    "phone": "Telefon",
+    "roomType": "Xona turi",
+    "roomPrice": "Xona narxi",
+    "noData": "Hech qanday ma'lumot topilmadi."
   }
+
+
+
+
+
 }

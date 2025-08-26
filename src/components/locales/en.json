@@ -4,21 +4,21 @@
     "dining": "Dining Options",
     "wellness": "Wellness",
     "contact": "Contact",
-    "discover": "Discover Mljet",
+    "discover": "Night Party",
     "jewelery": "Jewelry",
     "park": "Mljet Park"
   },
   "hotelName": "Hotel Jizzakh",
   "region": "MLJET",
   "close": "×",
-    "navbar": {
+  "navbar": {
     "checkin": "Online Check-In",
     "book": "Book Now"
   },
-   "about": {
+  "about": {
     "text": "Set within the verdant pine and oak tree forest of Mljet National Park, Hotel Odisej Mljet is just two hours by passenger or car ferry from Dubrovnik."
   },
-    "rooms": {
+  "rooms": {
     "heroTitleLine1": "Sweeping view of the",
     "heroTitleLine2": "Adriatic in your Room",
     "heroImageAlt": "Luxury Room with Adriatic View",
@@ -28,7 +28,7 @@
     "room2Alt": "Room 2",
     "room3Alt": "Room 3"
   },
-    "roomsList": {
+  "roomsList": {
     "superiorRoomTitle": "Superior Room",
     "superiorRoomDescription": "Enjoy a sublime stretch of gently shaded waterfront next to Pomena pier, where all the yachts and ships dock.",
     "deluxeRoomTitle": "Deluxe Room",
@@ -36,15 +36,98 @@
     "familyRoomTitle": "Family Room",
     "familyRoomDescription": "The picture perfect panorama of Pomena Bay from the terrace draws a steady crowd to Restaurant Odisej."
   },
-  
   "park": {
     "oakForestTitle": "Oak tree forest of Mljet National Park Oak tree forest of\nMljet National Park",
     "altImage": "Mljet National Park lake view",
     "image1Alt": "Pool area 1",
     "image2Alt": "Pool area 2",
     "image3Alt": "Pool area 3"
+  },
+  "footer": {
+    "hotelName": "Hotel Jizzakh",
+    "description": "Experience the beauty of the Adriatic with unmatched comfort and timeless elegance.",
+    "quickLinks": "Quick Links",
+    "links": {
+      "rooms": "Rooms & Suites",
+      "dining": "Dining Options",
+      "wellness": "Wellness",
+      "contact": "Contact",
+      "discover": "Discover MLJet"
+    },
+    "contactTitle": "Contact Us",
+    "address": {
+      "line1": "Pomena 2, 20226 Goveđari",
+      "line2": "Mljet, Croatia"
+    },
+    "phone": "Phone",
+    "email": "Email",
+    "copyright": "Hotel Jizzakh. All rights reserved."
+  },
+  "dining": {
+  "vistaMare": {
+    "title": "Vista Mare Beach Bar",
+    "description": "Enjoy a sublime stretch of gently shaded waterfront next to Pomena pier, where all the yachts and ships dock."
+  },
+  "levanat": {
+    "title": "Levanat Pizzeria",
+    "description": "Overlooking the neatly lined boats at the very pretty Pomena marina, Levanat Pizzeria has enchanting views over the crystal-clear Adriatic."
+  },
+  "odisej": {
+    "title": "Restaurant Odisej",
+    "description": "The picture perfect panorama of Pomena Bay from the terrace draws a steady crowd to Restaurant Odisej."
+  },
+ 
+  "heroTitleLine1": "Dining options with",
+  "heroTitleLine2": "regional specialities"
+
+},
+"wellness": {
+  "heroTitleLine1": "Wellness Treatments",
+  "heroTitleLine2": "for Mind and Body",
+  "heroImageAlt": "Luxury Wellness Pool View",
+  "image1Alt": "Exterior Detail",
+  "image2Alt": "Outside Pool",
+  "image3Alt": "Beach",
+  "text1": "Massage, sauna sessions, beauty treatments such as pedicures and manicures, a fitness room with cardio and strength equipment, an outdoor children's pool filled with sea water or a sun terrace to relax on.",
+  "text2": "Energy Clinic is an exclusive international center for the well-being of body, mind and inner self, focusing on revitalization and restoration of energy and the feeling of complete relaxation, balance and enjoyment.",
+  "text3": "Energy Clinic restores and relaxes your physical and inner self through a unique fusion of contemporary Western and Traditional Chinese Medicine.",
+  "text4": "With that in mind, we offer various unique treatments and manufacture our own premium line of homegrown organic cosmetic products. We also use and re-sell high-end health and beauty brands such as Sisley, Babor, Decleor, Thalgo and others.",
+  "text5": "Our holistic approach to health and well-being even includes education – we run a successful wellness academy, providing extensive theoretical and practical know-how for a whole generation of tomorrow’s wellness, beauty, and health specialists."
+},
+"contact": {
+  "titleLine1": "Get in touch with us to",
+  "titleLine2": "discover secret of Mljet",
+  "addressTitle": "Hotel Address",
+  "addressLine1": "Jizzakh, 1255",
+  "addressLine2": "Uzb, Jizzakh",
+  "contactTitle": "Hotel Contact",
+  "phone": "+998 99 999 9999",
+  "email": "hotel.jizzakh@gmail.uz",
+  "button": "Book Room"
+},
+"form": {
+  "title": "Book a Room",
+  "nameLabel": "Your Name",
+  "phoneLabel": "Phone Number",
+  "roomTypeLabel": "Room Type",
+  "chooseOption": "Choose",
+  "roomTypes": {
+    "standard": "Standard Room",
+    "deluxe": "Deluxe Room",
+    "seaview": "Sea View Room"
+  },
+  "priceLabel": "Room Price",
+  "submit": "Book Now"
+},
+ "yourRoom": {
+    "title": "Your Booked Room",
+    "name": "Name",
+    "phone": "Phone",
+    "roomType": "Room Type",
+    "roomPrice": "Room Price",
+    "noData": "No data found."
   }
-  
+
 
 
 }

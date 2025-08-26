@@ -4,7 +4,7 @@
     "dining": "餐饮选择",
     "wellness": "健康服务",
     "contact": "联系我们",
-    "discover": "发现姆列特",
+    "discover": "夜晚派对",
     "jewelery": "珠宝",
     "park": "姆列特公园"
   },
@@ -42,5 +42,91 @@
     "image1Alt": "泳池区域1",
     "image2Alt": "泳池区域2",
     "image3Alt": "泳池区域3"
+  },
+  "footer": {
+  "hotelName": "吉扎克酒店",
+  "description": "在无与伦比的舒适与永恒的优雅中，感受亚得里亚海的美丽。",
+  "quickLinks": "快速链接",
+  "links": {
+    "rooms": "客房和套房",
+    "dining": "用餐选择",
+    "wellness": "康体服务",
+    "contact": "联系我们",
+    "discover": "探索MLJet"
+  },
+  "contactTitle": "联系我们",
+  "address": {
+    "line1": "Pomena 2, 20226 Goveđari",
+    "line2": "Mljet，克罗地亚"
+  },
+  "phone": "电话",
+  "email": "电子邮件",
+  "copyright": "吉扎克酒店。版权所有。"
+},
+"dining": {
+  "vistaMare": {
+    "title": "Vista Mare 海滩酒吧",
+    "description": "在 Pomena 码头旁边享受宁静的遮荫海岸，这里停靠着所有的游艇和船只。"
+  },
+  "levanat": {
+    "title": "Levanat 披萨店",
+    "description": "俯瞰 Pomena 游艇码头整齐排列的船只，Levanat 披萨店拥有迷人的亚得里亚海景色。"
+  },
+  "odisej": {
+    "title": "Odisej 餐厅",
+    "description": "从露台望出去，Pomena 湾的完美全景吸引了大量食客来到 Odisej 餐厅。"
+  },
+  "heroTitleLine1": "提供地方特色的",
+  "heroTitleLine2": "餐饮选择"
+
+},
+"wellness": {
+  "heroTitleLine1": "身心健康护理",
+  "heroTitleLine2": "让您全面放松",
+  "heroImageAlt": "豪华康体泳池景观",
+  "image1Alt": "外观细节",
+  "image2Alt": "户外泳池",
+  "image3Alt": "海滩",
+  "text1": "按摩、桑拿、美容护理（如修脚和美甲）、配备心肺与力量训练器材的健身房、户外儿童海水泳池以及可放松的日光浴露台。",
+  "text2": "Energy Clinic 是一个专注于身体、心灵与内在平衡的国际高端健康中心，致力于恢复能量，带来完全放松、和谐与享受的体验。",
+  "text3": "Energy Clinic 通过融合现代西方医学与传统中医的方法，让您的身体与内心重焕活力与宁静。",
+  "text4": "我们提供各种独特的疗法，并自有研发高品质有机护肤产品。同时，我们也使用并销售高端健康美容品牌，如 Sisley、Babor、Decleor、Thalgo 等。",
+  "text5": "我们对健康的整体性理念也包含教育内容——我们运营一所成功的健康学院，系统传授理论与实践知识，培养未来的健康、美容与养生专家。"
+},
+"contact": {
+  "titleLine1": "联系我们，",
+  "titleLine2": "探索Mljet的秘密",
+  "addressTitle": "酒店地址",
+  "addressLine1": "吉扎赫, 1255",
+  "addressLine2": "乌兹别克斯坦，吉扎赫",
+  "contactTitle": "酒店联系方式",
+  "phone": "+998 99 999 9999",
+  "email": "hotel.jizzakh@gmail.uz",
+  "button": "预订房间"
+},
+"form": {
+  "title": "预订房间",
+  "nameLabel": "您的姓名",
+  "phoneLabel": "电话号码",
+  "roomTypeLabel": "房间类型",
+  "chooseOption": "请选择",
+  "roomTypes": {
+    "standard": "标准间",
+    "deluxe": "豪华间",
+    "seaview": "海景房"
+  },
+  "priceLabel": "房间价格",
+  "submit": "立即预订"
+},
+"yourRoom": {
+    "title": "您的预订房间",
+    "name": "姓名",
+    "phone": "电话",
+    "roomType": "房间类型",
+    "roomPrice": "房价",
+    "noData": "未找到数据。"
   }
+
+
+
 }

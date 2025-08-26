@@ -1,0 +1,61 @@
+.game-section {
+  padding: 60px 50px;
+}
+
+.line-title {
+  position: relative;
+  width: 400px;
+  margin-bottom: 48px;
+  padding-bottom: 16px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.line-title::before,
+.line-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.line-title::before {
+  width: 100%;
+  background: #f2f2f2;
+}
+
+.line-title::after {
+  width: 32px;
+  background: #e73700;
+}
+
+.custom-carousel .slick-arrow {
+  z-index: 10;
+}
+
+.item {
+  box-sizing: border-box;
+  /* background, width, height, border-radius va display style lar React inline style da */
+}
+
+.item.active {
+  /* maxsus style agar kerak bo‘lsa */
+}
+
+.item-desc h3 {
+  margin: 0 0 10px 0;
+  font-size: 28px;
+  line-height: 36px;
+  color: #fff;
+}
+
+.item-desc p {
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}
