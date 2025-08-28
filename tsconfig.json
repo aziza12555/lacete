@@ -9,7 +9,7 @@
     }
   ],
   "compilerOptions": {
-        "target": "ESNext",
+    "target": "ESNext",
     "module": "ESNext",
     "jsx": "react-jsx",
     "moduleResolution": "node",
