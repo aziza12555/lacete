@@ -23,7 +23,15 @@ const cards = [
   },
 ];
 
-function Card({ title, copy, button, image }) {
+type CardProps = {
+  title: string;
+  copy: string;
+  button: string;
+  image: string;
+};
+
+function Card({ title, copy, button, image }: CardProps) {
+
   return (
     <div
       tabIndex={0}
