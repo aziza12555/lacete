@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { IoFastFood } from "react-icons/io5";
