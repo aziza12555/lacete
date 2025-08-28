@@ -126,6 +126,41 @@
     "roomType": "Room Type",
     "roomPrice": "Room Price",
     "noData": "No data found."
+  },
+    "cards": {
+    "myBirthday": {
+      "title": "My Birthday",
+      "copy": "Celebrate your special day with unforgettable moments and joyful memories.",
+      "button": "View Trips"
+    },
+    "movieParty": {
+      "title": "Movie Party",
+      "copy": "Grab your popcorn and get ready for an epic night of films and fun.",
+      "button": "View Trips"
+    },
+    "picnic": {
+      "title": "Picnic",
+      "copy": "Enjoy the great outdoors with delicious food and relaxing vibes.",
+      "button": "Book Now"
+    },
+    "ladiesParty": {
+      "title": "Ladies Party",
+      "copy": "Dance, laugh, and create memories with your favorite people tonight.",
+      "button": "Book Now"
+    }
+  },
+   "beyond": {
+    "title": "Beyond the hotel",
+    "subtitle": "Discover the history and uniqueness of Mljet,\nwhich goes all the way back to ancient Greece.",
+    "readMore": "Read More",
+    "section1": {
+      "title": "A Bead in My Palm",
+      "description": "An exhibition of traditional Croatian\nbeaded jewellery and jewellery making\nworkshop on the island of Mljet"
+    },
+    "section2": {
+      "title": "The Island of Ulysses",
+      "description": "Have you heard about Ulysses, the great\nmythical Greek hero and king of Ithaca?\nAccording to legends, Odysseus was\nshipwrecked on the island of Mljet and\nlured by the nymph Calypso into a cave\nwhere he became her hostage."
+    }
   }
 
 

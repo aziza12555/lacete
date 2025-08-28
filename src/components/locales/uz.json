@@ -126,6 +126,41 @@
     "roomType": "Xona turi",
     "roomPrice": "Xona narxi",
     "noData": "Hech qanday ma'lumot topilmadi."
+  },
+    "cards": {
+    "myBirthday": {
+      "title": "Tug‘ilgan kunim",
+      "copy": "Maxsus kuningizni unutilmas lahzalar va quvonchli xotiralar bilan nishonlang.",
+      "button": "Sayohatlarni ko‘rish"
+    },
+    "movieParty": {
+      "title": "Kino kechasi",
+      "copy": "Popkornni oling va kino va zavqga to‘la kechaga tayyorlaning.",
+      "button": "Sayohatlarni ko‘rish"
+    },
+    "picnic": {
+      "title": "Piknik",
+      "copy": "Mazali taomlar va sokin muhit bilan tabiatdan rohatlaning.",
+      "button": "Hozir band qiling"
+    },
+    "ladiesParty": {
+      "title": "Ayollar kechasi",
+      "copy": "Raqsga tushing, kuling va sevimli insonlaringiz bilan xotiralar yarating.",
+      "button": "Hozir band qiling"
+    },
+      "beyond": {
+    "title": "Mehmonxonadan tashqarida",
+    "subtitle": "Mljet orolining tarixiy va o‘ziga xos tomonlarini\nqadimgi Yunoniston davrigacha bo‘lgan davrga oid kashf eting.",
+    "readMore": "Batafsil o‘qish",
+    "section1": {
+      "title": "Kaftimdagi marvarid",
+      "description": "Mljet orolida bo‘lib o‘tadigan an’anaviy\nxorvat zargarlik ko‘rgazmasi va\nzargarlik ustaxonasi."
+    },
+    "section2": {
+      "title": "Uliss oroli",
+      "description": "Uliss – buyuk yunon afsonaviy qahramoni\nva Itaka shohi haqida eshitganmisiz?\nRivoyatlarga ko‘ra, Odissey Mljet orolida\nkemasi cho‘kib qoladi va nimfa Kalipso\nuni g‘or ichida asir qiladi."
+    }
+  }
   }
 
 

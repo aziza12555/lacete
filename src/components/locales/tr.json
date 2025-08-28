@@ -124,6 +124,41 @@
     "roomType": "Oda Türü",
     "roomPrice": "Oda Fiyatı",
     "noData": "Veri bulunamadı."
+  },
+    "cards": {
+    "myBirthday": {
+      "title": "Doğum Günüm",
+      "copy": "Özel gününüzü unutulmaz anlar ve neşeli anılarla kutlayın.",
+      "button": "Gezileri Görüntüle"
+    },
+    "movieParty": {
+      "title": "Film Partisi",
+      "copy": "Patlamış mısırınızı kapın ve film ve eğlence dolu bir geceye hazır olun.",
+      "button": "Gezileri Görüntüle"
+    },
+    "picnic": {
+      "title": "Piknik",
+      "copy": "Lezzetli yiyecekler ve huzurlu bir ortamla doğanın keyfini çıkarın.",
+      "button": "Hemen Rezervasyon Yap"
+    },
+    "ladiesParty": {
+      "title": "Kadınlar Partisi",
+      "copy": "Dans edin, gülün ve sevdiklerinizle anılar biriktirin.",
+      "button": "Hemen Rezervasyon Yap"
+    },
+      "beyond": {
+    "title": "Otelin Ötesinde",
+    "subtitle": "Mljet adasının tarihi ve benzersizliğini\nta Eski Yunan dönemine kadar keşfedin.",
+    "readMore": "Devamını oku",
+    "section1": {
+      "title": "Avucumdaki Boncuk",
+      "description": "Mljet adasında geleneksel Hırvat\nboncuk takıları sergisi ve takı yapımı\natölyesi düzenlenmektedir."
+    },
+    "section2": {
+      "title": "Ulysseus’un Adası",
+      "description": "İthaka Kralı ve büyük Yunan kahramanı\nUlysseus’u duydunuz mu?\nEfsaneye göre Odysseus, Mljet adasında\ngemi kazası geçirir ve perisi Calypso\ntarafından bir mağaraya hapsedilir."
+    }
+  }
   }
 
 
